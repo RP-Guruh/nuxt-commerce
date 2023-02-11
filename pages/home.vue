@@ -11,8 +11,8 @@
             <p class="text-sm">Home</p>
           </div>
           <div class="grid grid-cols-2 px-4 absolute right-4">
-            <img src="~/assets/notification.png" alt="notif" />
-            <img src="~/assets/shopping-bag.png" alt="notif" />
+            <img src="~/assets/icon_shopping.png" alt="shopping" />
+            <img src="~/assets/icon_notif.png" alt="notif" />
           </div>
         </div>
       </div>
