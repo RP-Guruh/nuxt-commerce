@@ -2,7 +2,8 @@
 @media (min-width: 992px) {
     .mobile-view {
       max-width: 40%;
-      padding: 0rem 0px 6.6rem;
-      background-color: grey;
     }
   }
+body {
+    background-color: #F7F7F7;
+}

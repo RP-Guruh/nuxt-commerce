@@ -1,6 +1,6 @@
 <template>
   <!-- create h-screen -->
-  <div class="min-h-screen min-w-screen screenLayout">
+  <div class="min-h-screen min-w-screen screenLayout mobile-view mx-auto">
     <div class="headerLayout rounded-b-lg h-56 shadow-xl">
       <div class="flex py-7 px-7">
         <img src="https://i.pravatar.cc/50" class="rounded-full" />
@@ -8,12 +8,14 @@
           <div class="">
             <p class="text-sm font-normal">Deliver to</p>
             <p class="text-sm">Home</p>
+            
           </div>
-          <div class="grid grid-cols-2 px-4 absolute right-4">
+
+        </div>
+        <div class="grid grid-cols-2">
             <img src="~/assets/icon_shopping.png" alt="shopping" />
             <img src="~/assets/icon_notif.png" alt="notif" />
           </div>
-        </div>
       </div>
       <SearchBar></SearchBar>
       <Categories></Categories>
@@ -21,7 +23,7 @@
 
     <!-- CARD ADVERTISING -->
 
-    <div class="p-4 sm:w-1/2 lg:w-1/3 w-full hover:scale-105 duration-500">
+    <div class="p-4 w-full hover:scale-105 duration-500">
       <div
         class="flex items-center justify-between p-4 rounded-lg bg-white shadow-indigo-50 shadow-xl"
       >
