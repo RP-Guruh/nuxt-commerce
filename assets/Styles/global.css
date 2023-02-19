@@ -1,1 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@media (min-width: 992px) {
+    .mobile-view {
+      max-width: 40%;
+      padding: 0rem 0px 6.6rem;
+      background-color: grey;
+    }
+  }
