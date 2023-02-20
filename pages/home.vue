@@ -48,7 +48,7 @@
     </div>
 
     <div class="grid grid-cols-2 px-4 gap-1">
-      <ProductRecomended v-for="n in 6"></ProductRecomended>
+      <ProductRecomended></ProductRecomended>
     </div>
 
     <!-- END OF CARD -->
