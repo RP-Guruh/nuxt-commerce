@@ -34,12 +34,7 @@
 
 </style>
 
-<script setup>
-    const { data: products } = await useFetch(
-    "https://fakestoreapi.com/products/category/electronics?limit=6"
-);
 
-</script>
 
 <script>
 
@@ -59,6 +54,18 @@ export default {
         Swiper,
         SwiperSlide,
     },
+    data() {
+      return {
+        products: []
+      }
+    },
+    async fetch() {
+      this.products = await fetch(
+        'https://fakestoreapi.com/products/category/electronics?limit=6'
+      ).then(res => res.json())
+    },
+
+    
     setup() {
         return {
             modules: [FreeMode],
