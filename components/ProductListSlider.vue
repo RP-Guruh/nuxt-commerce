@@ -73,8 +73,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import { FreeMode } from "swiper";
 
+//women's clothing
+
 const { data: products } = await useFetch(
-  "https://fakestoreapi.com/products/category/women's clothing?limit=5"
+  "https://fakestoreapi.com/products/category/electronics?limit=5"
 );
 
 const modules = [FreeMode];
