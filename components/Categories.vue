@@ -12,27 +12,27 @@
       class="mySwiper"
     >
       <swiper-slide
-        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        class="border-2 rounded-xl inline-block py-2 px-auto leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
         >All</swiper-slide
       >
       <swiper-slide
-        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        class="border-2 rounded-xl inline-block py-2 px-auto leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
         >Man</swiper-slide
       >
       <swiper-slide
-        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        class="border-2 rounded-xl inline-block py-2 px-auto leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
         >Women</swiper-slide
       >
       <swiper-slide
-        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        class="border-2 rounded-xl inline-block py-2 px-auto leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
         >Kids</swiper-slide
       >
       <swiper-slide
-        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        class="border-2 rounded-xl inline-block py-2 px-auto leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
         >Shoes</swiper-slide
       >
       <swiper-slide
-        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        class="border-2 rounded-xl inline-block py-2 px-auto leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
         >Electronics</swiper-slide
       >
     </swiper>
