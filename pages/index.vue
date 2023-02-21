@@ -57,7 +57,6 @@
 
     <div>
       <ProductListSlider></ProductListSlider>
-      <div class="bg-black w-fit h-20"></div>
     </div>
 
     <BottomBar></BottomBar>
