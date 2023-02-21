@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @media (min-width: 720px) {
     .mobile-view {
-      max-width: 40%;
+      max-width: 50%;
     }
   }
 body {
