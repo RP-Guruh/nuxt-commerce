@@ -26,12 +26,12 @@
       <div class="mt-1 p-2">
         <p
           class="text-xs font-bold text-slate-700"
-          v-if="product.title.length < 20"
+          v-if="product.title.length < 15"
         >
           {{ product.title }}
         </p>
         <p class="text-xs font-bold text-slate-700" v-else>
-          {{ product.title.substring(0, 20) + ".." }}
+          {{ product.title.substring(0, 15) + ".." }}
         </p>
         <p class="mt-1 text-xs text-slate-400">{{ product.category }}</p>
 
