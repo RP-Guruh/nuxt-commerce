@@ -1,28 +1,51 @@
 <template>
-          
-          <div class="flex mt-8 pl-7 pr-7">
-      <swiper :slidesPerView="3" :loop="true" :spaceBetween="30" :freeMode="true" :pagination="{
+  <div class="flex mt-8 pl-7 pr-7">
+    <swiper
+      :slidesPerView="3"
+      :loop="true"
+      :spaceBetween="30"
+      :freeMode="true"
+      :pagination="{
         clickable: true,
-      }" :modules="modules" class="mySwiper">
-        <swiper-slide class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base">All</swiper-slide>
-        <swiper-slide class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base">Man</swiper-slide>
-        <swiper-slide class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base">Women</swiper-slide>
-        <swiper-slide class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base">Kids</swiper-slide>
-        <swiper-slide class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base">Shoes</swiper-slide>
-        <swiper-slide class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base">Electronics</swiper-slide>
-     
-      </swiper>
-    </div>
+      }"
+      :modules="modules"
+      class="mySwiper"
+    >
+      <swiper-slide
+        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        >All</swiper-slide
+      >
+      <swiper-slide
+        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        >Man</swiper-slide
+      >
+      <swiper-slide
+        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        >Women</swiper-slide
+      >
+      <swiper-slide
+        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        >Kids</swiper-slide
+      >
+      <swiper-slide
+        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        >Shoes</swiper-slide
+      >
+      <swiper-slide
+        class="border-2 rounded-xl inline-block py-2 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-medium text-base"
+        >Electronics</swiper-slide
+      >
+    </swiper>
+  </div>
 </template>
 
 <style>
-
 .swiper-slide {
-  min-width:100px;
+  min-width: 100px;
   display: inline-block;
-  border-color:rgb(3,172,14);
-  color: rgb(13,175,23);
-  font-family: 'Poppins', sans-serif;
+  border-color: rgb(3, 172, 14);
+  color: rgb(13, 175, 23);
+  font-family: "Poppins", sans-serif;
 }
 
 .swiper-slide img {
@@ -30,22 +53,21 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  bottom: 2px ;
+  bottom: 2px;
 }
 </style>
 
-
 <script>
 // Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Swiper, SwiperSlide } from "swiper/vue";
 
 // Import Swiper styles
-import 'swiper/css';
+import "swiper/css";
 
-import 'swiper/css/free-mode';
+import "swiper/css/free-mode";
 
 // import required modules
-import { FreeMode } from 'swiper';
+import { FreeMode } from "swiper";
 
 export default {
   components: {

@@ -1,7 +1,7 @@
 <template>
   <article
     v-for="product in products"
-    class="rounded-xl md:w-52 w-40 mt-4 bg-white ml-4 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+    class="rounded-xl md:w-44 w-40 mt-4 bg-white ml-4 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
   >
     <div class="rounded-xl">
       <img :src="product.image" class="h-24 w-18 mx-auto" alt="Hotel Photo" />

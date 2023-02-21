@@ -55,15 +55,12 @@
       <p class="font-bold text-yellow-500">Up to 50% OFF</p>
     </div>
 
-    <ProductListSlider></ProductListSlider>
-
-    <div class="pt-20">
-      <BottomBar></BottomBar>
+    <div>
+      <ProductListSlider></ProductListSlider>
+      <div class="bg-black w-fit h-20"></div>
     </div>
 
-    <!-- MENU BOTTOM -->
-
-    <!-- ============= -->
+    <BottomBar></BottomBar>
   </div>
 </template>
 

@@ -2,27 +2,25 @@
   <swiper
     :slidesPerView="4"
     :loop="true"
-    :spaceBetween="10"
     :freeMode="true"
     :pagination="{
       clickable: true,
     }"
     :modules="modules"
-    class="mySwiper"
+    class=""
   >
     <swiper-slide
       v-for="product in products"
-      class="rounded-xl md:w-32 w-24 mt-4 bg-white ml-4 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+      class="rounded-xl mt-4 bg-white ml-4 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
     >
-      <div class="badgeOff -mx-3 rounded-tl-lg md:w-32 w-24">
+      <!-- <div class="badgeOff -mx-3 rounded-tl-lg md:w-32 w-24">
         <p class="italic px-2 md:text-sm text-sm text-gray-100 font-semibold">
           50% OFF
         </p>
-      </div>
+      </div> -->
 
-      <div class="rounded-xl mt-4">
-        <img :src="product.image" class="h-24 w-18 mx-auto" alt="Hotel Photo" />
-      </div>
+      <img :src="product.image" class="image-product" alt="Hotel Photo" />
+
       <div class="mt-1 p-2">
         <p
           class="text-xs font-bold text-slate-700"
@@ -46,6 +44,15 @@
 <style>
 .badgeOff {
   background-color: rgb(13, 175, 23);
+}
+
+.swiper-slide {
+  font-family: "Poppins", sans-serif;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 70%;
 }
 </style>
 
