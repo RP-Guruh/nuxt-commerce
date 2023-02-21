@@ -57,7 +57,7 @@
 
     <ProductListSlider></ProductListSlider>
 
-    <div class="pt-16">
+    <div class="pt-20">
       <BottomBar></BottomBar>
     </div>
 
