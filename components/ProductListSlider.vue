@@ -7,7 +7,7 @@
       clickable: true,
     }"
     :modules="modules"
-    class="h-full"
+    class=""
   >
     <swiper-slide
       v-for="product in products"
@@ -19,11 +19,7 @@
         </p>
       </div> -->
 
-      <img
-        :src="product.image"
-        class="image-product mx-auto"
-        alt="Hotel Photo"
-      />
+      <img :src="product.image" class="image-product" alt="Hotel Photo" />
 
       <div class="mt-1 p-2">
         <p
@@ -56,7 +52,7 @@
 
 .swiper-slide img {
   display: block;
-  width: 30%;
+  width: 70%;
 }
 </style>
 
