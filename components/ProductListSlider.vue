@@ -2,16 +2,17 @@
   <swiper
     :slidesPerView="3"
     :loop="true"
+    :spaceBetween="30"
     :freeMode="true"
     :pagination="{
       clickable: true,
     }"
     :modules="modules"
-    class=""
+    class="mySwiper bg-white"
   >
     <swiper-slide
       v-for="product in products"
-      class="rounded-xl mt-4 bg-white ml-4 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
+      class="rounded-xl md:w-44 w-40 mt-4 bg-white ml-4 p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300"
     >
       <!-- <div class="badgeOff -mx-3 rounded-tl-lg md:w-32 w-24">
         <p class="italic px-2 md:text-sm text-sm text-gray-100 font-semibold">
@@ -19,9 +20,13 @@
         </p>
       </div> -->
 
-      <img :src="product.image" class="image-product" alt="Hotel Photo" />
+      <img
+        :src="product.image"
+        class="image-product mx-auto pt-4"
+        alt="Hotel Photo"
+      />
 
-      <div class="mt-1 p-2">
+      <div class="mt-8">
         <p
           class="text-xs font-bold text-slate-700"
           v-if="product.title.length < 15"
@@ -48,11 +53,17 @@
 
 .swiper-slide {
   font-family: "Poppins", sans-serif;
+  width: auto;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 70%;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.mySwiper {
+  margin-bottom: 60px;
 }
 </style>
 

@@ -2,7 +2,7 @@
   <!-- <section id="bottom-navigation" class="md:hidden block fixed inset-x-0 bottom-0 z-10 bg-white shadow"> // if shown only tablet/mobile-->
   <section
     id="bottom-navigation"
-    class="block inset-x-0 bottom-0 z-10 bg-white shadow-sm border-2 border-t-white"
+    class="fixed block inset-x-0 bottom-0 z-10 bg-white shadow-xl border-2 border-t-white"
   >
     <div id="tabs" class="flex justify-between">
       <a

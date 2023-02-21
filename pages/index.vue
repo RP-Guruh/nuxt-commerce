@@ -55,7 +55,7 @@
       <p class="font-bold text-yellow-500">Up to 50% OFF</p>
     </div>
 
-    <div>
+    <div class="">
       <ProductListSlider></ProductListSlider>
     </div>
 
